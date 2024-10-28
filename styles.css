@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300&family=Bebas+Neue&family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300&family=Bebas+Neue&family=Galada&family=Mina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-color: #f1f2f2; */
+    background-color: #fafafa;
+    /* background-color: white; */
+    overflow-x: hidden;
+    height: auto;
+}
+.navbar {
+    margin-top: 7px;
+    height: auto;
+    width: auto;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.navbar img {
+    width: 90px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+.navbar ul li a{
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: black;
+    transition: background, 0.5s;
+    font-weight: bolder;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.navbar ul li a:hover {
+    color: white;
+    background: black;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 5%;
+}
+.aboutus {
+    height: auto;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.aboutus h1 {
+    font-size: 40px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+.aboutus p {
+    padding: 0 15px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 550;
+    margin-top: 10px;
+}
+
+.cont1 {
+    margin-top: 10px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    height: auto;
+    min-height: 700px;
+    padding: 0 20px;
+    flex-direction: column;
+    background: linear-gradient(rgb(0, 119, 113), #fafafa)
+}
+.cont1 h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-top: 20px;
+}
+.cont1 p
+{
+    padding: 0 15px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 25px;
+}
+.gallary {
+    margin-top: 30px;
+}
+.gallary h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+.notice {
+    height: auto;
+    min-height: 400px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid grey;
+}
+.notice h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-top: 20px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.notice p {
+    font-family: "Tiro Bangla", serif;
+    padding: 0 15px;
+    font-size: 20px;
+    font-weight: bold;
+    white-space: pre-line;
+}
+.footer {
+    margin-top: 30px;
+    height: 400px;
+    width: auto;
+    background-color: #fafafa;
+    padding: 0 20px;
+}
+.footer ._1 {
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+.footer ._1 span {
+    font-size: 30px;
+    font-family: "Tiro Bangla", serif;
+    font-weight: bolder;
+}
+.footer ._1 img {
+    width: 90px;
+}
+.footer ._2 {
+    margin-top: 50px;
+}
+.footer ul {
+    list-style-type: none;
+    margin-top: 5px;
+    display: flex;
+    padding: 0 0px;
+}
+.footer ul li a {
+    color: black;
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+@media only screen and (max-width: 600px) {
+    /* .con1 {
+        height: 500px;
+        width: auto;
+        display: block;
+        margin-top: 15px;
+    }
+    .aboutus {
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 15px;
+    } */
+    /* ._1 {
+        height: auto;
+        width: 100%;
+        background: linear-gradient(#e66465, #9198e5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+    .footer ._1 span {
+        font-size: 23px;
+        font-family: "Tiro Bangla", serif;
+        font-weight: bolder;
+    }
+}
